@@ -2,14 +2,36 @@
 
 Hi, I'm Ahtisham Syed an aspiring data analyst skilled in Python, SQL, Power BI, Excel and Tableau.
 
-## Projects
+# Superstore Sales Analysis — Python EDA
 
-### 1. Superstore Sales EDA (Python)
-[Link to data set](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting?resource=download)
+## Project Overview
+Exploratory data analysis on 9,800+ retail sales records to uncover 
+revenue patterns, seasonal trends, and shipping behaviour.
 
-Exploratory data analysis on 9,000+ retail sales records.
-- Tools: Python, pandas, matplotlib, seaborn
-- Status: In progress
+## Business Questions Answered
+1. Which product category generates the most revenue?
+2. Are there seasonal sales patterns across the year?
+3. Do high-value orders get prioritised in shipping?
 
-## Skills
-Python | SQL | Power BI | Tableau | Excel | pandas | Data Visualization
+## Key Findings
+- Technology is the highest revenue category
+- Sales consistently peak in Q4 — driven by holiday purchasing cycles
+- 11.7% of orders are high-value (1,145 orders) and drive 
+  disproportionate revenue
+- Shipping time shows zero correlation with order size — 
+  large orders receive no shipping priority despite higher value
+
+## Tools Used
+Python · pandas · matplotlib · seaborn
+
+## Dataset
+Source: Kaggle [Link](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting?resource=download)
+Rows: 9,800+ | Cleaned: nulls handled, dtypes fixed, outliers flagged
+
+## Project Structure
+eda.ipynb          → full analysis notebook
+superstore_clean.csv → cleaned dataset
+chart1_sales_by_category.png
+chart2_monthly_trend.png
+chart3_sales_distribution.png
+chart4_correlation_heatmap.png
