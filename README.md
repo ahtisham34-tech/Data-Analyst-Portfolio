@@ -29,9 +29,15 @@ Source: Kaggle [Link](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasti
 Rows: 9,800+ | Cleaned: nulls handled, dtypes fixed, outliers flagged
 
 ## Project Structure
-eda.ipynb          → full analysis notebook
+eda.ipynb        → full analysis notebook
+
 superstore_clean.csv → cleaned dataset
+
 chart1_sales_by_category.png
+[chart1](chart1_sales_by_category.png)
+
 chart2_monthly_trend.png
+
 chart3_sales_distribution.png
+
 chart4_correlation_heatmap.png
