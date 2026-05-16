@@ -26,12 +26,13 @@ Python · pandas · matplotlib · seaborn
 
 ## Dataset
 Source: Kaggle [Link](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting?resource=download)
+
 Rows: 9,800+ | Cleaned: nulls handled, dtypes fixed, outliers flagged
 
 ## Project Structure
 [eda.ipynb](eda.ipynb)        → full analysis notebook
 
-superstore_clean.csv → cleaned dataset
+[cleaned_sales_data.csv](cleaned_sales_data.csv) → cleaned dataset
 
 [chart1_sales_by_category.png](chart1_sales_by_category.png)
 
